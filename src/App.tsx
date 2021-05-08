@@ -1,16 +1,18 @@
-import React, { Component, createContext } from "react";
-import "./App.css";
+import React, { Component } from "react";
+// import "./App.css";
 import Card from "./Card/Card";
 import DrawButton from "./DrawButton/DrawButton";
 import { ITarotCard } from "./Interfaces/ICard";
 import data from "./Data/tarot-cards.json";
 import { IViewportSize } from "./Interfaces/IViewportSize";
+import { Container } from "@material-ui/core";
 
 interface Props {
   updateCard?: () => void;
 }
 
 var viewport: IViewportSize;
+var styles = {};
 
 class App extends Component<
   Props,
@@ -21,7 +23,8 @@ class App extends Component<
     this.updateViewportSize = this.updateViewportSize.bind(this);
     this.updateCard = this.updateCard.bind(this);
 
-    viewport = { height: 300, width: 200 };
+    viewport = { width: window.innerWidth, height: window.innerHeight };
+    styles = { width: window.innerWidth - 50, height: window.innerHeight - 30 };
 
     this.state = {
       cards: [{ imageaddress: "" }],
@@ -69,13 +72,13 @@ class App extends Component<
 
   render() {
     return (
+      // <div className="App" style={styles}>
       <div className="App">
-        <div className="cardRow">
+        {/* <div className="cardRow"> */}
+        <Container maxWidth="sm">
           <Card {...{ card: this.state.currentCard, viewportSize: viewport }} />
-        </div>
-        <div className="buttonRow">
-          <DrawButton drawCard={this.updateCard} />
-        </div>
+        </Container>
+        {/* </div> */}
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "@material-ui/core/Button";
 
 interface Props {
   drawCard: () => void;
@@ -17,12 +18,14 @@ class DrawButton extends Component<Props> {
   render() {
     return (
       <div className="buttonContainer">
-        <button className="btn" onClick={this.drawCard}>
+        <Button variant="contained" onClick={this.drawCard}>
           Draw Card
-        </button>
+        </Button>
       </div>
     );
   }
 }
 
 export default DrawButton;
+
+//        <button className="btn" >
