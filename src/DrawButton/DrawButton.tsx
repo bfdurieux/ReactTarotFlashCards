@@ -5,10 +5,15 @@ interface Props {
   drawCard: () => void;
 }
 
+var styles = {};
+
 class DrawButton extends Component<Props> {
   constructor(props: Props) {
     super(props);
     this.drawCard = this.drawCard.bind(this);
+    styles = {
+      margin: 5,
+    };
   }
 
   drawCard() {
@@ -18,7 +23,7 @@ class DrawButton extends Component<Props> {
   render() {
     return (
       <div className="buttonContainer">
-        <Button variant="contained" onClick={this.drawCard}>
+        <Button variant="contained" onClick={this.drawCard} style={styles}>
           Draw Card
         </Button>
       </div>

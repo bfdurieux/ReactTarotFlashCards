@@ -1,5 +1,5 @@
-import { Container } from "@material-ui/core";
-import React, { Component, useContext } from "react";
+import { Box, Container } from "@material-ui/core";
+import React, { Component } from "react";
 import { ITarotCard } from "../Interfaces/ICard";
 import { IViewportSize } from "../Interfaces/IViewportSize";
 import "./TarotCard.css";
@@ -12,12 +12,21 @@ interface Props {
 }
 
 var styles = {};
+var mui = {};
+var view = {};
 
 class TarotCard extends Component<Props, {}> {
   constructor(props: Props) {
     super(props);
     styles = {
-      height: props.viewportSize.height - 100,
+      height: props.viewportSize.height - 130,
+    };
+    mui = {
+      width: "min-content",
+    };
+    view = {
+      height: props.viewportSize.height - 130,
+      width: "min-content",
     };
   }
 
@@ -26,20 +35,23 @@ class TarotCard extends Component<Props, {}> {
   /* <Card className={classes.root}> */
   render() {
     return (
-      <div className="card-container">
-        <Card>
-          <CardContent>
-            <Container maxWidth="sm">
-              <div className="front">
-                <img
-                  src={this.props.card.imageaddress}
-                  alt="img link is broken"
-                />
-              </div>
-            </Container>
-          </CardContent>
-        </Card>
-      </div>
+      <Box bgcolor="green" display="flex" width="min-content">
+        <div className="card-container" style={view}>
+          <Card className="card-ui" style={view}>
+            <CardContent>
+              <Container maxWidth={false}>
+                <div className="front">
+                  <img
+                    src={this.props.card.imageaddress}
+                    alt="img link is broken"
+                    style={styles}
+                  />
+                </div>
+              </Container>
+            </CardContent>
+          </Card>
+        </div>
+      </Box>
     );
   }
 }

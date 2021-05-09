@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactTarotFlashCards/static/css/main.4f21dbe8.chunk.css",
-    "main.js": "/ReactTarotFlashCards/static/js/main.dc6ad80d.chunk.js",
-    "main.js.map": "/ReactTarotFlashCards/static/js/main.dc6ad80d.chunk.js.map",
+    "main.js": "/ReactTarotFlashCards/static/js/main.c8ba2992.chunk.js",
+    "main.js.map": "/ReactTarotFlashCards/static/js/main.c8ba2992.chunk.js.map",
     "runtime-main.js": "/ReactTarotFlashCards/static/js/runtime-main.4f4e47da.js",
     "runtime-main.js.map": "/ReactTarotFlashCards/static/js/runtime-main.4f4e47da.js.map",
     "static/js/2.246d7a2f.chunk.js": "/ReactTarotFlashCards/static/js/2.246d7a2f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4f4e47da.js",
     "static/js/2.246d7a2f.chunk.js",
     "static/css/main.4f21dbe8.chunk.css",
-    "static/js/main.dc6ad80d.chunk.js"
+    "static/js/main.c8ba2992.chunk.js"
   ]
 }

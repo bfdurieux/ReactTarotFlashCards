@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-// import "./App.css";
-import Card from "./Card/Card";
+import "./App.css";
+import TarotCard from "./Card/Card";
 import DrawButton from "./DrawButton/DrawButton";
 import { ITarotCard } from "./Interfaces/ICard";
 import data from "./Data/tarot-cards.json";
@@ -76,7 +76,10 @@ class App extends Component<
       <div className="App">
         {/* <div className="cardRow"> */}
         <Container maxWidth="sm">
-          <Card {...{ card: this.state.currentCard, viewportSize: viewport }} />
+          <TarotCard
+            {...{ card: this.state.currentCard, viewportSize: viewport }}
+          />
+          <DrawButton drawCard={this.updateCard} />
         </Container>
         {/* </div> */}
       </div>
