@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactTarotFlashCards/static/css/main.8cf30310.chunk.css",
-    "main.js": "/ReactTarotFlashCards/static/js/main.624637c5.chunk.js",
-    "main.js.map": "/ReactTarotFlashCards/static/js/main.624637c5.chunk.js.map",
-    "runtime-main.js": "/ReactTarotFlashCards/static/js/runtime-main.6d76bb03.js",
-    "runtime-main.js.map": "/ReactTarotFlashCards/static/js/runtime-main.6d76bb03.js.map",
-    "static/js/2.32925ab6.chunk.js": "/ReactTarotFlashCards/static/js/2.32925ab6.chunk.js",
-    "static/js/2.32925ab6.chunk.js.map": "/ReactTarotFlashCards/static/js/2.32925ab6.chunk.js.map",
-    "static/js/3.be45449d.chunk.js": "/ReactTarotFlashCards/static/js/3.be45449d.chunk.js",
-    "static/js/3.be45449d.chunk.js.map": "/ReactTarotFlashCards/static/js/3.be45449d.chunk.js.map",
+    "main.css": "/ReactTarotFlashCards/static/css/main.4f21dbe8.chunk.css",
+    "main.js": "/ReactTarotFlashCards/static/js/main.dc6ad80d.chunk.js",
+    "main.js.map": "/ReactTarotFlashCards/static/js/main.dc6ad80d.chunk.js.map",
+    "runtime-main.js": "/ReactTarotFlashCards/static/js/runtime-main.4f4e47da.js",
+    "runtime-main.js.map": "/ReactTarotFlashCards/static/js/runtime-main.4f4e47da.js.map",
+    "static/js/2.246d7a2f.chunk.js": "/ReactTarotFlashCards/static/js/2.246d7a2f.chunk.js",
+    "static/js/2.246d7a2f.chunk.js.map": "/ReactTarotFlashCards/static/js/2.246d7a2f.chunk.js.map",
+    "static/js/3.7e8c42b6.chunk.js": "/ReactTarotFlashCards/static/js/3.7e8c42b6.chunk.js",
+    "static/js/3.7e8c42b6.chunk.js.map": "/ReactTarotFlashCards/static/js/3.7e8c42b6.chunk.js.map",
     "index.html": "/ReactTarotFlashCards/index.html",
-    "static/css/main.8cf30310.chunk.css.map": "/ReactTarotFlashCards/static/css/main.8cf30310.chunk.css.map",
-    "static/js/2.32925ab6.chunk.js.LICENSE.txt": "/ReactTarotFlashCards/static/js/2.32925ab6.chunk.js.LICENSE.txt"
+    "static/css/main.4f21dbe8.chunk.css.map": "/ReactTarotFlashCards/static/css/main.4f21dbe8.chunk.css.map",
+    "static/js/2.246d7a2f.chunk.js.LICENSE.txt": "/ReactTarotFlashCards/static/js/2.246d7a2f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6d76bb03.js",
-    "static/js/2.32925ab6.chunk.js",
-    "static/css/main.8cf30310.chunk.css",
-    "static/js/main.624637c5.chunk.js"
+    "static/js/runtime-main.4f4e47da.js",
+    "static/js/2.246d7a2f.chunk.js",
+    "static/css/main.4f21dbe8.chunk.css",
+    "static/js/main.dc6ad80d.chunk.js"
   ]
 }
