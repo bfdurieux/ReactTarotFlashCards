@@ -7,14 +7,12 @@ import data from "./Data/tarot-cards.json";
 import { IViewportSize } from "./Interfaces/IViewportSize";
 import { Container } from "@material-ui/core";
 
-
 interface Props {
   updateCard?: () => void;
 }
 
 var viewport: IViewportSize;
 var styles = {};
-var isEmpty: boolean;
 
 class App extends Component<
   Props,
@@ -24,7 +22,6 @@ class App extends Component<
     super(props);
     this.updateViewportSize = this.updateViewportSize.bind(this);
     this.updateCard = this.updateCard.bind(this);
-    isEmpty = true;
 
     viewport = { width: window.innerWidth, height: window.innerHeight };
     styles = { width: window.innerWidth - 50, height: window.innerHeight - 30 };
@@ -53,7 +50,6 @@ class App extends Component<
   }
 
   updateCard() {
-    isEmpty = false;
     const currentCards = this.state.cards;
     this.setState({
       currentCard: this.getRandomCard(currentCards),
@@ -74,14 +70,15 @@ class App extends Component<
     window.removeEventListener("resize", this.updateViewportSize);
   }
 
-
   render() {
     return (
       // <div className="App" style={styles}>
       <div className="App">
         {/* <div className="cardRow"> */}
         <Container maxWidth="sm">
-          <TarotCard {...{ card: this.state.currentCard, viewportSize: viewport, isEmpty }} />
+          <TarotCard
+            {...{ card: this.state.currentCard, viewportSize: viewport }}
+          />
           <DrawButton drawCard={this.updateCard} />
         </Container>
         {/* </div> */}

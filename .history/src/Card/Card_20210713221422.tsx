@@ -5,6 +5,7 @@ import { IViewportSize } from "../Interfaces/IViewportSize";
 import "./TarotCard.css";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
+import CardDescription from "./CardDescription";
 
 interface Props {
   card: ITarotCard;
@@ -38,7 +39,7 @@ class TarotCard extends Component<Props, {showComponent: boolean}> {
 
   showDescription = () => {
     this.setState({
-      showComponent: !this.state.showComponent,
+      showComponent: true,
     });
   }
 
@@ -62,7 +63,7 @@ class TarotCard extends Component<Props, {showComponent: boolean}> {
                       onClick={this.showDescription}
                     />
                     {this.state.showComponent ?
-                      <TransitionsModal {...this.props} /> :
+                      <CardDescription /> :
                         null
                     }
                   </div>
@@ -110,7 +111,7 @@ export default TarotCard;
  </div>
  */
 
- const modalStyles = makeStyles((theme: Theme) =>
+ const styles = makeStyles((theme: Theme) =>
   createStyles({
     modal: {
       display: 'flex',
@@ -126,8 +127,8 @@ export default TarotCard;
   }),
 );
 
- function TransitionsModal(props:Props) {
-  const classes = modalStyles();
+ function TransitionsModal() {
+  const classes = styles();
   const [open, setOpen] = React.useState(true);
 
   const handleOpen = () => {
@@ -157,11 +158,15 @@ export default TarotCard;
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="transition-modal-title">{props.card.name}</h2>
-            <p id="transition-modal-description">{props.card.description}</p>
+            <h2 id="transition-modal-title">Transition modal</h2>
+            <p id="transition-modal-description">react-transition-group animates me.</p>
           </div>
         </Fade>
       </Modal>
     </div>
   );
+}
+
+function styles() {
+  throw new Error("Function not implemented.");
 }

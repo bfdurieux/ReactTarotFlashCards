@@ -157,8 +157,8 @@ export default TarotCard;
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="transition-modal-title">{props.card.name}</h2>
-            <p id="transition-modal-description">{props.card.description}</p>
+            <h2 id="transition-modal-title">this.props.card.title</h2>
+            <p id="transition-modal-description">this.props.card.description</p>
           </div>
         </Fade>
       </Modal>

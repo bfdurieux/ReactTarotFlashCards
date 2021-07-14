@@ -6,7 +6,7 @@ import { ITarotCard } from "./Interfaces/ICard";
 import data from "./Data/tarot-cards.json";
 import { IViewportSize } from "./Interfaces/IViewportSize";
 import { Container } from "@material-ui/core";
-
+import TarotCard from "./Card/Card";
 
 interface Props {
   updateCard?: () => void;
@@ -53,7 +53,7 @@ class App extends Component<
   }
 
   updateCard() {
-    isEmpty = false;
+    emptyCard = false;
     const currentCards = this.state.cards;
     this.setState({
       currentCard: this.getRandomCard(currentCards),
@@ -81,7 +81,7 @@ class App extends Component<
       <div className="App">
         {/* <div className="cardRow"> */}
         <Container maxWidth="sm">
-          <TarotCard {...{ card: this.state.currentCard, viewportSize: viewport, isEmpty }} />
+        <TarotCard {...{ card: this.state.currentCard, viewportSize: viewport, isEmpty }} />; 
           <DrawButton drawCard={this.updateCard} />
         </Container>
         {/* </div> */}

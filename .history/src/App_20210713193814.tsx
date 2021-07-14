@@ -81,7 +81,7 @@ class App extends Component<
       <div className="App">
         {/* <div className="cardRow"> */}
         <Container maxWidth="sm">
-          <TarotCard {...{ card: this.state.currentCard, viewportSize: viewport, isEmpty }} />
+        <TarotCard {...{ card: this.state.currentCard, viewportSize: viewport, isEmpty }} />
           <DrawButton drawCard={this.updateCard} />
         </Container>
         {/* </div> */}

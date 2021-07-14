@@ -38,7 +38,7 @@ class TarotCard extends Component<Props, {showComponent: boolean}> {
 
   showDescription = () => {
     this.setState({
-      showComponent: !this.state.showComponent,
+      showComponent: true,
     });
   }
 
@@ -62,7 +62,7 @@ class TarotCard extends Component<Props, {showComponent: boolean}> {
                       onClick={this.showDescription}
                     />
                     {this.state.showComponent ?
-                      <TransitionsModal {...this.props} /> :
+                      <TransitionsModal /> :
                         null
                     }
                   </div>
@@ -126,7 +126,7 @@ export default TarotCard;
   }),
 );
 
- function TransitionsModal(props:Props) {
+ function TransitionsModal() {
   const classes = modalStyles();
   const [open, setOpen] = React.useState(true);
 
@@ -157,8 +157,8 @@ export default TarotCard;
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="transition-modal-title">{props.card.name}</h2>
-            <p id="transition-modal-description">{props.card.description}</p>
+            <h2 id="transition-modal-title">Transition modal</h2>
+            <p id="transition-modal-description">react-transition-group animates me.</p>
           </div>
         </Fade>
       </Modal>
