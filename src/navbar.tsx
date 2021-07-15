@@ -5,6 +5,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { AppBar, Box } from '@material-ui/core';
 import SingleSpread from './Spreads/SingleSpread/SingleSpread';
+import ThreeSpread from './Spreads/ThreeSpread/ThreeSpread';
 
 
 const useStyles = makeStyles({
@@ -60,7 +61,7 @@ function Single() {
   function Three() {
     return (
       <Paper>
-        <div>Item two</div>
+        <ThreeSpread></ThreeSpread>
       </Paper>
     );
   }

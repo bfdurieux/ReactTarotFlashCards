@@ -1,14 +1,12 @@
 import { Backdrop, Box, Container, createStyles, Fade, makeStyles, Modal, Theme } from "@material-ui/core";
 import React, { Component } from "react";
 import { ITarotCard } from "../Interfaces/ICard";
-import { IViewportSize } from "../Interfaces/IViewportSize";
 import "./TarotCard.css";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 
 interface Props {
   card: ITarotCard;
-  viewportSize: IViewportSize;
   isEmpty: boolean;
 }
 
@@ -20,16 +18,7 @@ var view = {};
 class TarotCard extends Component<Props, {showComponent: boolean}> {
   constructor(props: Props) {
     super(props);
-    styles = {
-      height: props.viewportSize.height - 130,
-    };
-    mui = {
-      width: "min-content",
-    };
-    view = {
-      height: props.viewportSize.height - 130,
-      width: "min-content",
-    };
+   
     this.state = {
       showComponent: false,
     };

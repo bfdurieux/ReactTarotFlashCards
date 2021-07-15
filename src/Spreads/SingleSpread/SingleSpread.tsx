@@ -3,7 +3,6 @@ import { Container } from "@material-ui/core";
 import TarotCard from "../../Card/Card";
 import DrawButton from "../../DrawButton/DrawButton";
 import { ITarotCard } from "../../Interfaces/ICard";
-import { IViewportSize } from "../../Interfaces/IViewportSize";
 import data from "../../Data/tarot-cards.json";
 
 
@@ -11,35 +10,31 @@ interface Props {
   updateCard?: () => void;
 }
 
-var viewport: IViewportSize;
 var styles = {};
 var isEmpty: boolean;
 
 class SingleSpread extends Component<
   Props,
-  { cards: ITarotCard[]; currentCard: ITarotCard; viewport: IViewportSize }
+  { cards: ITarotCard[]; currentCard: ITarotCard; }
 > {
   constructor(props: Props) {
     super(props);
-    this.updateViewportSize = this.updateViewportSize.bind(this);
+
     this.updateCard = this.updateCard.bind(this);
     isEmpty = true;
 
-    viewport = { width: window.innerWidth, height: window.innerHeight };
     styles = { width: window.innerWidth - 50, height: window.innerHeight - 30 };
 
     this.state = {
       cards: [{ imageaddress: "" }],
-      currentCard: { imageaddress: "" },
-      viewport: viewport,
+      currentCard: { imageaddress: "" }
     };
   }
 
   componentWillMount() {
     //gets called immediately after the constructor, before render()
     const currentCards: ITarotCard[] = data.cards;
-    this.updateViewportSize();
-    window.addEventListener("resize", this.updateViewportSize);
+
     this.setState({
       cards: currentCards,
       currentCard: this.getRandomCard(currentCards),
@@ -59,28 +54,13 @@ class SingleSpread extends Component<
     });
   }
 
-  updateViewportSize() {
-    const viewportSize = {
-      width: window.innerWidth,
-      height: window.innerHeight,
-    };
-    this.setState({
-      viewport: viewportSize,
-    });
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.updateViewportSize);
-  }
-
-
   render() {
     return (
       // <div className="App" style={styles}>
       <div className="Single">
         {/* <div className="cardRow"> */}
         <Container maxWidth="sm">
-          <TarotCard {...{ card: this.state.currentCard, viewportSize: viewport, isEmpty }} />
+          <TarotCard {...{ card: this.state.currentCard, isEmpty }} />
           <DrawButton drawCard={this.updateCard} />
         </Container>
         {/* </div> */}
