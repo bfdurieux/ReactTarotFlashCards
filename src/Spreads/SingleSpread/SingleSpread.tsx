@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import "./App.css";
-import TarotCard from "./Card/Card";
-import DrawButton from "./DrawButton/DrawButton";
-import { ITarotCard } from "./Interfaces/ICard";
-import data from "./Data/tarot-cards.json";
-import { IViewportSize } from "./Interfaces/IViewportSize";
 import { Container } from "@material-ui/core";
-import SingleSpread from "./Spreads/SingleSpread/SingleSpread";
+import TarotCard from "../../Card/Card";
+import DrawButton from "../../DrawButton/DrawButton";
+import { ITarotCard } from "../../Interfaces/ICard";
+import { IViewportSize } from "../../Interfaces/IViewportSize";
+import data from "../../Data/tarot-cards.json";
 
 
 interface Props {
@@ -17,7 +15,7 @@ var viewport: IViewportSize;
 var styles = {};
 var isEmpty: boolean;
 
-class App extends Component<
+class SingleSpread extends Component<
   Props,
   { cards: ITarotCard[]; currentCard: ITarotCard; viewport: IViewportSize }
 > {
@@ -79,14 +77,15 @@ class App extends Component<
   render() {
     return (
       // <div className="App" style={styles}>
-      <div className="App">
+      <div className="Single">
         {/* <div className="cardRow"> */}
         <Container maxWidth="sm">
-        <SingleSpread/>
+          <TarotCard {...{ card: this.state.currentCard, viewportSize: viewport, isEmpty }} />
+          <DrawButton drawCard={this.updateCard} />
         </Container>
         {/* </div> */}
       </div>
     );
   }
 }
-export default App;
+export default SingleSpread;
