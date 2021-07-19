@@ -3,6 +3,7 @@ import TarotCard from "../../Card/Card";
 import { ITarotCard } from "../../Interfaces/ICard";
 import data from "../../Data/tarot-cards.json";
 import DrawButton from "../../DrawButton/DrawButton";
+import './ThreeSpread.css';
 
 interface Props {
     updateCard?: () => void;
@@ -78,20 +79,20 @@ class ThreeSpread extends Component<
 
     render() {
         return (
-            <>
-                <div className="card1">
+            <div className="grid-container">
+                <div className="grid-item">
                     <TarotCard {...{ card: this.state.currentCard1, isEmpty: isEmpty1 }}></TarotCard>
                     <DrawButton drawCard={this.updateCard1} />
                 </div>
-                <div className="card2">
+                <div className="grid-item">
                     <TarotCard {...{ card: this.state.currentCard2, isEmpty: isEmpty2 }}></TarotCard>
                     <DrawButton drawCard={this.updateCard2} />
                 </div>
-                <div className="card3">
+                <div className="grid-item">
                     <TarotCard {...{ card: this.state.currentCard3, isEmpty: isEmpty3 }}></TarotCard>
                     <DrawButton drawCard={this.updateCard3} />
                 </div>
-            </>
+            </div>
         );
     }
 }

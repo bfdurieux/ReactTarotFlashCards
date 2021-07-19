@@ -3,7 +3,7 @@ export interface ITarotCard {
   name?: string;
   description?: string;
   suit?: string;
-  imageaddress: string;
+  imageaddress?: string;
 }
 export interface ICard {
   id?: number;

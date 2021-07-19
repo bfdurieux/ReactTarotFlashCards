@@ -4,6 +4,7 @@ import TarotCard from "../../Card/Card";
 import DrawButton from "../../DrawButton/DrawButton";
 import { ITarotCard } from "../../Interfaces/ICard";
 import data from "../../Data/tarot-cards.json";
+import FlippingCard from "../../FlippingCard/FlippingCard";
 
 
 interface Props {
@@ -60,8 +61,7 @@ class SingleSpread extends Component<
       <div className="Single">
         {/* <div className="cardRow"> */}
         <Container maxWidth="sm">
-          <TarotCard {...{ card: this.state.currentCard, isEmpty }} />
-          <DrawButton drawCard={this.updateCard} />
+          <FlippingCard {...{isEmpty:true,card:{}}} />
         </Container>
         {/* </div> */}
       </div>

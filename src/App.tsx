@@ -34,9 +34,7 @@ class App extends Component<
       <div className="App">
         <CenteredTabs></CenteredTabs>
         {/* <div className="cardRow"> */}
-        <Container maxWidth="sm">
 
-        </Container>
         {/* </div> */}
       </div>
     );

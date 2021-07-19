@@ -1,0 +1,117 @@
+.card-container {
+    cursor: pointer;
+    height: 400px;
+    width: 240px;
+    margin: auto;
+    transition: ease-in;
+  }
+  
+  .card {
+    height: 550px;
+    width: 400px;
+
+    border: 1px solid #300;
+    transform-style: preserve-3d;
+    transition: all 0.4s ease-in-out;
+  }
+  
+.card-back{
+  height: 400px;
+  width: 240px;
+  border: 1px solid #300;
+  backface-visibility: hidden;
+  overflow: hidden;
+  text-align: center;
+  font-size: 2.3em;
+}
+.button{
+  margin-top: 20px;
+}
+  
+.card-front{
+  height: 400px;
+  width: 240px;
+  border: 1px solid #300;
+  background-color: rgba(255, 251, 251, 1);
+  display: flex;
+}
+
+img{
+  height: 400px;
+  width: 240px;
+}
+
+.img-bkp{
+  height: calc(100% -30px);
+  width: calc(100% -30px);
+}
+.card-text{
+  text-align: center;
+  padding-top: 50%;
+  color: #333;
+  font-size: 2.3em;
+  text-align: center;
+}
+
+  .card2:hover {
+    transform: rotateY(180deg);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .card-click{
+    height: 550px;
+    width: 400px;
+
+    border: 1px solid #300;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: all 0.4s ease-in-out 0s 1 normal forwards;
+  }
+  
+  .card .front {
+    height: 550px;
+    width: 400px;
+    backface-visibility: hidden;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(255, 251, 251, 1);
+  }
+  
+  .card2 .back {
+    height: 550px;
+    width: 400px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+  
+  .card .back {
+    height: 550px;
+    width: 400px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+  .card-click .back {
+    height: 550px;
+    width: 400px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+  
+  .eng{
+    color: #333;
+    font-size: 2.3em;
+    padding-top: 40%;
+  }
+  
+  .han2{
+    color: #333;
+    font-size: 6.3em;
+    padding-top: 20%;
+  }
+  
+  .pin{
+      color: rgba(200, 10, 10, 1);
+      font-size: 2.3em;
+      padding-top: 10%;
+  }

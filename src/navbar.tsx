@@ -11,6 +11,7 @@ import ThreeSpread from './Spreads/ThreeSpread/ThreeSpread';
 const useStyles = makeStyles({
   root: {
     flexGrow: 1,
+    color: 'red',
   },
 });
 
@@ -23,8 +24,7 @@ export default function CenteredTabs() {
   };
 
   return (
-    <Paper className={classes.root}>
-
+    <div className={classes.root}>
       <Tabs
         value={value}
         onChange={handleChange}
@@ -46,23 +46,23 @@ export default function CenteredTabs() {
       <TabPanel value={value} index={2}>
         <Celtic></Celtic>
       </TabPanel>
-    </Paper>
+    </div>
   );
 }
 
 function Single() {
     return (
-      <Paper>
+      <div style={{ height:550 }}>
         <SingleSpread></SingleSpread>
-      </Paper>
+      </div>
     );
   }
   
   function Three() {
-    return (
-      <Paper>
+    return (      
+      <div style={{ height:550 }}>
         <ThreeSpread></ThreeSpread>
-      </Paper>
+      </div>
     );
   }
   
