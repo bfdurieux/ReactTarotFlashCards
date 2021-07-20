@@ -1,0 +1,159 @@
+{
+    "cards": [
+      {
+        "id": 0,
+        "name": "The Fool",
+        "suit": "Major Arcana",
+        "description": "BEGINNING, SPONTANEITY, FAITH, APPARENT FOLLY",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-fool.jpg"
+      },
+      {
+        "id": 1,
+        "name": "The Magician",
+        "suit": "Major Arcana",
+        "description": "ACTION, CONSCIOUS AWARENESS, CONCENTRATION, POWER",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-magician.jpg"
+      },
+      {
+        "id": 2,
+        "name": "The High Priestess",
+        "suit": "Major Arcana",
+        "description": "NONACTION, UNCONSCIOUS AWARENESS, POTENTIAL, MYSTERY",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-highpriestess.jpg"
+      },
+      {
+        "id": 3,
+        "name": "The Empress",
+        "suit": "Major Arcana",
+        "description": "MOTHERING, ABUNDANCE, SENSES, NATURE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-empress.jpg"
+      },
+      {
+        "id": 4,
+        "name": "The Emperor",
+        "suit": "Major Arcana",
+        "description": "FATHERING, STRUCTURE, AUTHORITY, REGULATION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-emperor.jpg"
+      },
+      {
+        "id": 5,
+        "name": "The Hierophant",
+        "suit": "Major Arcana",
+        "description": "EDUCATION, BELIEF SYSTEMS, CONFORMITY, GROUP IDENTIFICATION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-hierophant.jpg"
+      },
+      {
+        "id": 6,
+        "name": "The Lovers",
+        "suit": "Major Arcana",
+        "description": "RELATIONSHIP, SEXUALITY, PERSONAL BELIEFS, VALUES",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-lovers.jpg"
+      },
+      {
+        "id": 7,
+        "name": "The Chariot",
+        "suit": "Major Arcana",
+        "description": "VICTORY, WILL, SELF-ASSERTION, HARD CONTROL",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-chariot.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Strength",
+        "suit": "Major Arcana",
+        "description": "STRENGTH, PATIENCE, COMPASSION, SOFT CONTROL",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-strength.jpg"
+      },
+      {
+        "id": 9,
+        "name": "The Hermit",
+        "suit": "Major Arcana",
+        "description": "INTROSPECTION, SEARCHING, GUIDANCE, SOLITUDE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-hermit.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Wheel of Fortune",
+        "suit": "Major Arcana",
+        "description": "DESTINY, TURNING POINT, MOVEMENT, PERSONAL VISION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wheeloffortune.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Justice",
+        "suit": "Major Arcana",
+        "description": "JUSTICE, RESPONSIBILITY, DECISION, CAUSE AND EFFECT",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-justice.jpg"
+      },
+      {
+        "id": 12,
+        "name": "The Hanged Man",
+        "suit": "Major Arcana",
+        "description": "LETTING GO, REVERSAL, SUSPENSION, SACRIFICE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-hangedman.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Death",
+        "suit": "Major Arcana",
+        "description": "ENDING, TRANSITION, ELIMINATION, INEXORABLE FORCES",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-death.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Temperance",
+        "suit": "Major Arcana",
+        "description": "TEMPERANCE, BALANCE, HEALTH, COMBINATION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-temperance.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Devil",
+        "suit": "Major Arcana",
+        "description": "BONDAGE, MATERIALISM, IGNORANCE, HOPELESSNESS",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-devil.jpg"
+      },
+      {
+        "id": 16,
+        "name": "The Tower",
+        "suit": "Major Arcana",
+        "description": "SUDDEN CHANGE, RELEASE, DOWNFALL, REVELATION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-tower.jpg"
+      },
+      {
+        "id": 17,
+        "name": "The Star",
+        "suit": "Major Arcana",
+        "description": "HOPE, INSPIRATION, GENEROSITY, SERENITY",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-star.jpg"
+      },
+      {
+        "id": 18,
+        "name": "The Moon",
+        "suit": "Major Arcana",
+        "description": "FEAR, ILLUSION, IMAGINATION, BEWILDERMENT",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-moon.jpg"
+      },
+      {
+        "id": 19,
+        "name": "The Sun",
+        "suit": "Major Arcana",
+        "description": "ENLIGHTENMENT, GREATNESS, VITALITY, ASSURANCE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-sun.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Judgement",
+        "suit": "Major Arcana",
+        "description": "JUDGMENT, REBIRTH, INNER CALLING, ABSOLUTION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-judgement.jpg"
+      },
+      {
+        "id": 21,
+        "name": "The World",
+        "suit": "Major Arcana",
+        "description": "INTEGRATION, ACCOMPLISHMENT, INVOLVEMENT, FULFILLMENT",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-world.jpg"
+      }
+    ]
+  }
+  
