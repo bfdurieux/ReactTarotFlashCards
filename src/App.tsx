@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
 import { IViewportSize } from "./Interfaces/IViewportSize";
-import { Container } from "@material-ui/core";
+import { Container, ThemeProvider } from "@material-ui/core";
 import SingleSpread from "./Spreads/SingleSpread/SingleSpread";
 import CenteredTabs from "./navbar";
+import { lightTheme } from "./theme";
 
 
 interface Props {
@@ -31,6 +32,7 @@ class App extends Component<
   render() {
     return (
       // <div className="App" style={styles}>
+
       <div className="App">
         <CenteredTabs></CenteredTabs>
         {/* <div className="cardRow"> */}

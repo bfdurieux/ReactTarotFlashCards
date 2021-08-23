@@ -3,9 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import { AppBar, Box } from '@material-ui/core';
+import { AppBar, Box, FormControl, FormControlLabel, FormGroup, Switch } from '@material-ui/core';
 import SingleSpread from './Spreads/SingleSpread/SingleSpread';
 import ThreeSpread from './Spreads/ThreeSpread/ThreeSpread';
+import Footer from './Footer/Footer';
 
 
 const useStyles = makeStyles({
@@ -24,6 +25,7 @@ export default function CenteredTabs() {
   };
 
   return (
+    <>
     <div className={classes.root}>
       <Tabs
         value={value}
@@ -46,13 +48,18 @@ export default function CenteredTabs() {
       <TabPanel value={value} index={2}>
         <Celtic></Celtic>
       </TabPanel>
+      
+    <div className="footer">
+      <Footer></Footer>
     </div>
+    </div>
+    </>
   );
 }
 
 function Single() {
     return (
-      <div style={{ height:550 }}>
+      <div >
         <SingleSpread></SingleSpread>
       </div>
     );
@@ -60,7 +67,7 @@ function Single() {
   
   function Three() {
     return (      
-      <div style={{ height:550 }}>
+      <div>
         <ThreeSpread></ThreeSpread>
       </div>
     );
@@ -88,26 +95,4 @@ function Single() {
       </div>
     );
   }
-/*
-  <BrowserRouter>
-        <div className={classes.root}>
-          <AppBar position="static" color="default">
-            <Tabs
-              value={this.state.value}
-              onChange={this.handleChange}
-              indicatorColor="primary"
-              textColor="primary"
-              fullWidth
-            >
-              <Tab label="Item One" component={Link} to="/one" />
-              <Tab label="Item Two" component={Link} to="/two" />
-            </Tabs>
-          </AppBar>
 
-          <Switch>
-            <Route path="/one" component={PageShell(ItemOne)} />
-            <Route path="/two" component={PageShell(ItemTwo)} />
-          </Switch>
-        </div>
-      </BrowserRouter>
- */

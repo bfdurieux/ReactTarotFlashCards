@@ -153,6 +153,398 @@
         "suit": "Major Arcana",
         "description": "INTEGRATION, ACCOMPLISHMENT, INVOLVEMENT, FULFILLMENT",
         "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-world.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Ace of Wands",
+        "suit": "Minor Arcana",
+        "description": "CREATIVE FORCE, ENTHUSIASM, CONFIDENCE, COURAGE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-01.jpg"
+      },
+      {
+        "id": 23,
+        "name": "II of Wands",
+        "suit": "Minor Arcana",
+        "description": "PERSONAL POWER, BOLDNESS, ORIGINALITY",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-02.jpg"
+      },
+      {
+        "id": 24,
+        "name": "III of Wands",
+        "suit": "Minor Arcana",
+        "description": "EXPLORATION, FORESIGHT, LEADERSHIP",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-03.jpg"
+      },
+      {
+        "id": 25,
+        "name": "IV of Wands",
+        "suit": "Minor Arcana",
+        "description": "CELEBRATION, FREEDOM, EXCITEMENT",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-04.jpg"
+      },
+      {
+        "id": 26,
+        "name": "V of Wands",
+        "suit": "Minor Arcana",
+        "description": "CELEBRATION, FREEDOM, EXCITEMENT",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-05.jpg"
+      },
+      {
+        "id": 27,
+        "name": "VI of Wands",
+        "suit": "Minor Arcana",
+        "description": "TRIUMPH, ACCLAIM, PRIDE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-06.jpg"
+      },
+      {
+        "id": 28,
+        "name": "VII of Wands",
+        "suit": "Minor Arcana",
+        "description": "AGGRESSION, DEFIANCE, CONVICTION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-07.jpg"
+      },
+      {
+        "id": 29,
+        "name": "VIII of Wands",
+        "suit": "Minor Arcana",
+        "description": "QUICK ACTION, CONCLUSION, NEWS",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-08.jpg"
+      },
+      {
+        "id": 30,
+        "name": "IX of Wands",
+        "suit": "Minor Arcana",
+        "description": "DEFENSIVENESS, PERSEVERANCE, STAMINA",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-09.jpg"
+      },
+      {
+        "id": 31,
+        "name": "X of Wands",
+        "suit": "Minor Arcana",
+        "description": "OVEREXTENDING, BURDENS, STRUGGLE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-10.jpg"
+      },
+      {
+        "id": 32,
+        "name": "Page of Wands",
+        "suit": "Minor Arcana",
+        "description": "BE CREATIVE, BE ENTHUSIASTIC, BE CONFIDENT, BE COURAGEOUS",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-11.jpg"
+      },
+      {
+        "id": 33,
+        "name": "Knight of Wands",
+        "suit": "Minor Arcana",
+        "description": "CHARMING/SUPERFICIAL, SELF-CONFIDENT/COCKY, DARING/FOOLHARDY, ADVENTUROUS/RESTLESS,PASSIONATE/HOT-TEMPERED",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-12.jpg"
+      },
+      {
+        "id": 34,
+        "name": "Queen of Wands",
+        "suit": "Minor Arcana",
+        "description": "ATTRACTIVE, WHOLEHEARTED, ENERGETIC, CHEERFUL, SELF-ASSURED",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-13.jpg"
+      },
+      {
+        "id": 35,
+        "name": "King of Wands",
+        "suit": "Minor Arcana",
+        "description": "CREATIVE, INSPIRING, FORCEFUL, CHARISMATIC, BOLD",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wands-14.jpg"
+      },
+      {
+        "id": 36,
+        "name": "Ace of Cups",
+        "suit": "Minor Arcana",
+        "description": "EMOTIONAL FORCE, INTUITION, INTIMACY, LOVE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-01.jpg"
+      },
+      {
+        "id": 37,
+        "name": "II of Cups",
+        "suit": "Minor Arcana",
+        "description": "CONNECTION, TRUCE, ATTRACTION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-02.jpg"
+      },
+      {
+        "id": 38,
+        "name": "III of Cups",
+        "suit": "Minor Arcana",
+        "description": "EXUBERANCE, FRIENDSHIP, COMMUNITY",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-03.jpg"
+      },
+      {
+        "id": 39,
+        "name": "IV of Cups",
+        "suit": "Minor Arcana",
+        "description": "SELF-ABSORPTION, APATHY, GOING WITHIN",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-04.jpg"
+      },
+      {
+        "id": 40,
+        "name": "V of Cups",
+        "suit": "Minor Arcana",
+        "description": "LOSS, BEREAVEMENT, REGRET",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-05.jpg"
+      },
+      {
+        "id": 41,
+        "name": "VI of Cups",
+        "suit": "Minor Arcana",
+        "description": "GOOD WILL, INNOCENCE, CHILDHOOD",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-06.jpg"
+      },
+      {
+        "id": 42,
+        "name": "VII of Cups",
+        "suit": "Minor Arcana",
+        "description": "WISHFUL THINKING, OPTIONS, DISSIPATION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-07.jpg"
+      },
+      {
+        "id": 43,
+        "name": "VIII of Cups",
+        "suit": "Minor Arcana",
+        "description": "DEEPER MEANING, MOVING ON, WEARINESS",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-08.jpg"
+      },
+      {
+        "id": 44,
+        "name": "IX of Cups",
+        "suit": "Minor Arcana",
+        "description": "WISH FULFILLMENT, SATISFACTION, SENSUAL PLEASURE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-09.jpg"
+      },
+      {
+        "id": 45,
+        "name": "X of Cups",
+        "suit": "Minor Arcana",
+        "description": "JOY, PEACE, FAMILY",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-10.jpg"
+      },
+      {
+        "id": 46,
+        "name": "Page of Cups",
+        "suit": "Minor Arcana",
+        "description": "BE EMOTIONAL, BE INTUITIVE, BE INTIMATE, BE LOVING",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-11.jpg"
+      },
+      {
+        "id": 47,
+        "name": "Knight of Cups",
+        "suit": "Minor Arcana",
+        "description": "ROMANTIC/OVEREMOTIONAL, IMAGINATIVE/FANCIFUL, SENSITIVE/TEMPERAMENTAL, REFINED/OVERREFINED, INTROSPECTIVE/INTROVERTED",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-12.jpg"
+      },
+      {
+        "id": 48,
+        "name": "Queen of Cups",
+        "suit": "Minor Arcana",
+        "description": "LOVING, TENDERHEARTED, INTUITIVE, PSYCHIC, SPIRITUAL",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-13.jpg"
+      },
+      {
+        "id": 49,
+        "name": "King of Cups",
+        "suit": "Minor Arcana",
+        "description": "WISE, CALM, DIPLOMATIC, CARING, TOLERANT",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-cups-14.jpg"
+      },
+      {
+        "id": 50,
+        "name": "Ace of Swords",
+        "suit": "Minor Arcana",
+        "description": "MENTAL FORCE, TRUTH, JUSTICE, FORTITUDE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-01.jpg"
+      },
+      {
+        "id": 51,
+        "name": "II of Swords",
+        "suit": "Minor Arcana",
+        "description": "BLOCKED EMOTIONS, AVOIDANCE, STALEMATE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-02.jpg"
+      },
+      {
+        "id": 52,
+        "name": "III of Swords",
+        "suit": "Minor Arcana",
+        "description": "HEARTBREAK, LONELINESS, BETRAYAL",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-03.jpg"
+      },
+      {
+        "id": 53,
+        "name": "IV of Swords",
+        "suit": "Minor Arcana",
+        "description": "REST, CONTEMPLATION, QUIET PREPARATION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-04.jpg"
+      },
+      {
+        "id": 54,
+        "name": "V of Swords",
+        "suit": "Minor Arcana",
+        "description": "SELF-INTEREST, DISCORD, OPEN DISHONOR",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-05.jpg"
+      },
+      {
+        "id": 55,
+        "name": "VI of Swords",
+        "suit": "Minor Arcana",
+        "description": "THE BLUES, RECOVERY, TRAVEL",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-06.jpg"
+      },
+      {
+        "id": 56,
+        "name": "VII of Swords",
+        "suit": "Minor Arcana",
+        "description": "RUNNING AWAY, LONE WOLF STYLE, HIDDEN DISHONOR",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-07.jpg"
+      },
+      {
+        "id": 57,
+        "name": "VIII of Swords",
+        "suit": "Minor Arcana",
+        "description": "RESTRICTION, CONFUSION, POWERLESSNESS",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-08.jpg"
+      },
+      {
+        "id": 58,
+        "name": "IX of Swords",
+        "suit": "Minor Arcana",
+        "description": "WORRY, GUILT, ANGUISH",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-9.jpg"
+      },
+      {
+        "id": 59,
+        "name": "X of Swords",
+        "suit": "Minor Arcana",
+        "description": "BOTTOMING OUT, VICTIM MENTALITY, MARTYRDOM",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-10.jpg"
+      },
+      {
+        "id": 60,
+        "name": "Page of Swords",
+        "suit": "Minor Arcana",
+        "description": "USE YOUR MIND, BE TRUTHFUL, BE JUST, HAVE FORTITUDE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-11.jpg"
+      },
+      {
+        "id": 61,
+        "name": "Knight of Swords",
+        "suit": "Minor Arcana",
+        "description": "DIRECT/BLUNT, AUTHORITATIVE/OVERBEARING, INCISIVE/CUTTING, KNOWLEDGEABLE/OPINIONATED, LOGICAL/UNFEELING",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-12.jpg"
+      },
+      {
+        "id": 62,
+        "name": "Queen of Swords",
+        "suit": "Minor Arcana",
+        "description": "HONEST, ASTUTE, FORTHRIGHT, WITTY, EXPERIENCED",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-13.jpg"
+      },
+      {
+        "id": 63,
+        "name": "King of Swords",
+        "suit": "Minor Arcana",
+        "description": "INTELLECTUAL, ANALYTICAL, ARTICULATE, JUST, ETHICAL",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-swords-14.jpg"
+      },
+      {
+        "id": 64,
+        "name": "Ace of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "MATERIAL FORCE, PROSPERITY, PRACTICALITY, TRUST",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-01.jpg"
+      },
+      {
+        "id": 65,
+        "name": "II of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "JUGGLING, FLEXIBILITY, FUN",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-02.jpg"
+      },
+      {
+        "id": 66,
+        "name": "III of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "TEAMWORK, PLANNING, COMPETENCE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-03.jpg"
+      },
+      {
+        "id": 67,
+        "name": "IV of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "POSSESSIVENESS, CONTROL, BLOCKED CHANGE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-04.jpg"
+      },
+      {
+        "id": 68,
+        "name": "V of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "HARD TIMES, ILL HEALTH, REJECTION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-05.jpg"
+      },
+      {
+        "id": 69,
+        "name": "VI of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "HAVING/NOT HAVING: RESOURCES, KNOWLEDGE, POWER",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-06.jpg"
+      },
+      {
+        "id": 70,
+        "name": "VII of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "ASSESSMENT, REWARD, DIRECTION CHANGE",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-07.jpg"
+      },
+      {
+        "id": 71,
+        "name": "VIII of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "DILIGENCE, KNOWLEDGE, DETAIL",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-08.jpg"
+      },
+      {
+        "id": 72,
+        "name": "IX of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "DISCIPLINE, SELF-RELIANCE, REFINEMENT",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-09.jpg"
+      },
+      {
+        "id": 73,
+        "name": "X of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "AFFLUENCE, PERMANENCE, CONVENTION",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-10.jpg"
+      },
+      {
+        "id": 74,
+        "name": "Page of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "HAVE AN EFFECT, BE PRACTICAL, BE PROSPEROUS, BE TRUSTING/TRUSTWORTHY",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-11.jpg"
+      },
+      {
+        "id": 75,
+        "name": "Knight of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "UNWAVERING/STUBBORN, CAUTIOUS/UNADVENTUROUS, THOROUGH/OBSESSIVE, REALISTIC/PESSIMISTIC, HARDWORKING/GRINDING",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-12.jpg"
+      },
+      {
+        "id": 76,
+        "name": "Queen of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "NURTURING, BIGHEARTED, DOWN-TO-EARTH, RESOURCEFUL, TRUSTWORTHY",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-13.jpg"
+      },
+      {
+        "id": 77,
+        "name": "King of Pentacles",
+        "suit": "Minor Arcana",
+        "description": "ENTERPRISING, ADEPT, RELIABLE, SUPPORTING, STEADY",
+        "imageaddress": "https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-pentacles-14.jpg"
       }
     ]
   }

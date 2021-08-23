@@ -4,11 +4,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Footer from "./Footer/Footer";
+import Switches from "./Switches/Switches";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Footer />
+    <Switches></Switches>
   </React.StrictMode>,
   document.getElementById("root")
 );

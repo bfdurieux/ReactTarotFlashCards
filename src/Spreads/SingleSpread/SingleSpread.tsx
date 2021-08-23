@@ -20,7 +20,6 @@ class SingleSpread extends Component<
 > {
   constructor(props: Props) {
     super(props);
-
     this.updateCard = this.updateCard.bind(this);
     isEmpty = true;
 
@@ -55,13 +54,15 @@ class SingleSpread extends Component<
     });
   }
 
+  
+
   render() {
     return (
       // <div className="App" style={styles}>
       <div className="Single">
         {/* <div className="cardRow"> */}
         <Container maxWidth="sm">
-          <FlippingCard {...{isEmpty:true,card:{}}} />
+          <FlippingCard/>
         </Container>
         {/* </div> */}
       </div>
@@ -69,3 +70,4 @@ class SingleSpread extends Component<
   }
 }
 export default SingleSpread;
+

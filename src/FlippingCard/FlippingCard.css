@@ -4,9 +4,10 @@
     width: 240px;
     margin: auto;
     transition: ease-in;
+    display: flex;
   }
   
-  .card {
+  .card2 {
     height: 550px;
     width: 400px;
 
@@ -23,9 +24,12 @@
   overflow: hidden;
   text-align: center;
   font-size: 2.3em;
+  background-color: rgba(255, 251, 251, 1);
 }
+
 .button{
   margin-top: 20px;
+  max-width: 240px;
 }
   
 .card-front{
@@ -45,6 +49,7 @@ img{
   height: calc(100% -30px);
   width: calc(100% -30px);
 }
+
 .card-text{
   text-align: center;
   padding-top: 50%;
@@ -58,7 +63,7 @@ img{
     transition: all 0.4s ease-in-out;
   }
 
-  .card-click{
+  .card-click2{
     height: 550px;
     width: 400px;
 
@@ -68,7 +73,7 @@ img{
     transition: all 0.4s ease-in-out 0s 1 normal forwards;
   }
   
-  .card .front {
+  .card .front2 {
     height: 550px;
     width: 400px;
     backface-visibility: hidden;
@@ -78,27 +83,27 @@ img{
     background-color: rgba(255, 251, 251, 1);
   }
   
-  .card2 .back {
+  .card2 .back2 {
     height: 550px;
     width: 400px;
     text-align: center;
     transform: rotateY(180deg);
   }
   
-  .card .back {
+  .card .back2 {
     height: 550px;
     width: 400px;
     text-align: center;
     transform: rotateY(180deg);
   }
-  .card-click .back {
+  .card-click .back2 {
     height: 550px;
     width: 400px;
     text-align: center;
     transform: rotateY(180deg);
   }
   
-  .eng{
+  .eng2{
     color: #333;
     font-size: 2.3em;
     padding-top: 40%;
@@ -110,8 +115,18 @@ img{
     padding-top: 20%;
   }
   
-  .pin{
+  .pin2{
       color: rgba(200, 10, 10, 1);
       font-size: 2.3em;
       padding-top: 10%;
+  }
+
+
+  .bottom-row{
+    display: grid;
+  }
+
+  .bottom-row > span{
+    color: #333;
+    margin-top: 5px;
   }
